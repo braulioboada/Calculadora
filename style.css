@@ -1,3 +1,12 @@
+body {
+    background-image: url(img/proyecto-nahual.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
 
 .calculator {
     margin: 50px auto;
@@ -20,6 +29,14 @@
 
 .calculator button:hover {
     background-color: #2d8b32;
+}
+
+#clear {
+    display: none;
+}
+
+#result {
+    font-size: medium;
 }
 
 input[type="number"]::-webkit-inner-spin-button,

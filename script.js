@@ -21,7 +21,7 @@ function calculate() {
             result = "Invalid operation";
     }
 
-    document.getElementById('result').innerHTML = "Result: " + result;
+    document.getElementById('result').innerHTML = "Resultado: " + result;
     document.getElementById('clear').style.display = 'block'; // Mostrar el botón de limpiar
 }
 
